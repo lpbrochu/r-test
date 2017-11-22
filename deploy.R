@@ -1,3 +1,5 @@
+install.packages("rsconnect")
+install.packages("plumber")
 library("plumber")
 library("rsconnect")
 
