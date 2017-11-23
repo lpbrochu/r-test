@@ -1,5 +1,5 @@
-install.packages("rsconnect")
-install.packages("devtools")
+# install.packages("rsconnect")
+# install.packages("devtools")
 library("rsconnect")
 library("devtools")
 
@@ -14,5 +14,5 @@ install_app <- function(repo, version) {
     install_github(repo = repo, version = version)
 }
 
-install_app("lobrochu/shiny-sample/shinysample", "1.0.0")
+install_app("lpbrochu/shiny-sample/shinysample", "1.0.0")
 #deploy_app()
